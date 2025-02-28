@@ -146,9 +146,9 @@ namespace hww
 
 
 
-            
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -167,6 +167,16 @@ namespace hww
         private void button3_Click(object sender, EventArgs e)//Edit button
         {
             ChangeCountry();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

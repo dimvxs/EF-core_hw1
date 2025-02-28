@@ -177,6 +177,7 @@
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
             groupBox2.Text = "Actions";
+            groupBox2.Enter += groupBox2_Enter;
             // 
             // button3
             // 
@@ -197,6 +198,7 @@
             Controls.Add(groupBox1);
             Name = "Form1";
             Text = "Geography national";
+            Load += Form1_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);

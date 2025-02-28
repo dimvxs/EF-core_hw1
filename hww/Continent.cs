@@ -9,6 +9,13 @@ namespace hww
     public class Continent
     {
         public string continent { get; set; }
+
+        public int Id { get; set; }
+
+        public Continent()
+        {
+
+        }
         public Continent(string c)
         {
             continent = c;
